@@ -1,3 +1,4 @@
+import { letters } from './helpers/letters';
 import './App.css';
 
 function App() {
@@ -15,10 +16,13 @@ function App() {
       <h3>Intentos: 0</h3>
 
       {/* Botones letra */}
-      <button>A</button>
-      <button>B</button>
-      <button>C</button>
-
+      {
+        letters.map( (letter) =>(
+          <button key={ letter }>
+            { letter }
+          </button>
+        ))
+      }
     </div>
   )
 };
