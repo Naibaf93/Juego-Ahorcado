@@ -5,6 +5,8 @@ import { HangImage } from './components/HangImage';
 
 function App() {
 
+  const [ word ] = useState('COMPUTADORA');
+  const [ hiddenWord ] = useState('_ '.repeat( word.length ));
   const [ attempts, setAttempts ] = useState(0);
 
   const checkLetter = (letter: string) => {
@@ -19,7 +21,7 @@ function App() {
       <HangImage imageNumber={ attempts }/>
 
       {/* Palabra oculta */}
-      <h3>_ _ _ _ _ _ _ _ _ _</h3>
+      <h3>{ hiddenWord }</h3>
 
       {/* Contador intentos */}
       <h3>Intentos: { attempts }</h3>
