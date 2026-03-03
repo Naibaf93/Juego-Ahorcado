@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       
       {/* Imagenes */}
-      <HangImage />
+      <HangImage imageNumber={ 1 }/>
 
       {/* Palabra oculta */}
       <h3>_ _ _ _ _ _ _ _ _ _</h3>
