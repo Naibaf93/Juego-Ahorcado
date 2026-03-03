@@ -1,4 +1,4 @@
-const words: string[] = [
+let words: string[] = [
     'COMPUTADORA',
     'AGUACATE',
     'ANIMAL',
