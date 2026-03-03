@@ -10,8 +10,11 @@ function App() {
   const [ attempts, setAttempts ] = useState(0);
 
   const checkLetter = (letter: string) => {
-    console.log(letter);
-    setAttempts( Math.min( attempts + 1, 9 ) );
+    
+    if( !word.includes(letter) ) {
+      setAttempts( Math.min( attempts + 1, 9 ) );    
+      return;
+    }
   }
   
   return(
