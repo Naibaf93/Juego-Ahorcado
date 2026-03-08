@@ -8,7 +8,11 @@ let words: string[] = [
     'ANIMAL',
     'VETERINARIO',
     'TELEFONO',
-    'CELULAR'
+    'CELULAR',
+    'KIWI',
+    'LEON',
+    'ZEBRA',
+    'GATO'
 
 ];
 
