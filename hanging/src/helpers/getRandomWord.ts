@@ -12,7 +12,9 @@ let words: string[] = [
     'KIWI',
     'LEON',
     'ZEBRA',
-    'GATO'
+    'GATO',
+    'CABALLO',
+    'RELOJ'
 
 ];
 
