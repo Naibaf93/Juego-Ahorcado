@@ -13,7 +13,8 @@ let words: string[] = [
     'LEON',
     'ZEBRA',
     'GATO',
-    'CABALLO'
+    'CABALLO',
+    'RELOJ'
 
 ];
 
